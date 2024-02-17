@@ -1,5 +1,8 @@
 import React from 'react'
 import comerce_header from "../assets/commerce_header (2).png"
+import img1 from "../assets/pexels-photo-8128670.webp"
+import img2 from "../assets/pexels-photo-1930353.jpeg"
+import img3 from "../assets/pexels-photo-2096499.webp"
 // import card1 from "../assets/TT-3-WhiteTT.webp"
 // import card2 from "../assets/vista-mb.jpg"
 // import card3 from "/src/assets/517XL6OwctL._AC_SY580_.jpg"
@@ -32,9 +35,9 @@ const HeroSection = () => {
       <div className="cards">
         <div className="cards-container">
             <div className="three-cards">
-                <span><img className='card1' src="src/assets/pexels-photo-8128670.webp" alt="" /></span>
-                <span><img className='card3' src="src/assets/pexels-photo-1930353.jpeg" alt="" /></span>
-                <span><img className='card2' src="src/assets/pexels-photo-2096499.webp" alt="" /></span>
+                <span><img className='card1' src={img1} alt="" /></span>
+                <span><img className='card3' src={img2} alt="" /></span>
+                <span><img className='card2' src={img3} alt="" /></span>
             </div>
         </div>
     </div>
